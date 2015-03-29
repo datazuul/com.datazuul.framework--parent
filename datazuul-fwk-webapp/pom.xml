@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>parent</artifactId>
+        <groupId>com.datazuul.framework</groupId>
+        <version>${VERSION_NUMBER}</version>
+    </parent>
+
+    <artifactId>datazuul-fwk-webapp</artifactId>
+    <name>datazuul.com - DataZuul Framework: Webapps</name>
+    <version>${VERSION_NUMBER}</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.datazuul.framework</groupId>
+            <artifactId>datazuul-fwk-domain</artifactId>
+            <version>${VERSION_NUMBER}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.datazuul.framework</groupId>
+            <artifactId>datazuul-fwk-business</artifactId>
+            <version>${VERSION_NUMBER}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.datazuul.framework</groupId>
+            <artifactId>datazuul-fwk-util</artifactId>
+            <version>${VERSION_NUMBER}</version>
+        </dependency>
+
+<!--        <dependency>
+            <groupId>com.visural</groupId>
+            <artifactId>visural-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.visural</groupId>
+            <artifactId>visural-wicket-w15</artifactId>
+        </dependency>-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket</artifactId>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket-extensions</artifactId>
+        </dependency>
+        <dependency>
+            <!-- for AnnotatedConstraintBehavior -->
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>4.2.0.Final</version>
+        </dependency>
+        <dependency>
+            <!-- for AnnotatedConstraintBehavior -->
+            <groupId>commons-validator</groupId>
+            <artifactId>commons-validator</artifactId>
+            <version>1.4.0</version>
+        </dependency>
+<!--        <dependency>
+            <groupId>org.wicketstuff</groupId>
+            <artifactId>wicketstuff-jslibraries</artifactId>
+        </dependency>-->
+    </dependencies>
+</project>

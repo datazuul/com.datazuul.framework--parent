@@ -1,0 +1,385 @@
+#languageSwitcher a {
+    color: #333;
+}
+#languageSwitcher li {
+    margin: 0px;
+    padding: 0 0 8px;
+    float: left;
+    position: relative;
+    list-style: none;
+}
+
+#languageSwitcher li span {
+    background-image: url("../images/flags.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+    height: 11px;
+    margin: 2px 6px 0 0;
+    width: 16px;
+}
+
+.ad > a > span {background-position: -16px 0}
+.ae > a > span {background-position: -32px 0}
+.af > a > span {background-position: -48px 0}
+.ag > a > span {background-position: -64px 0}
+.ai > a > span {background-position: -80px 0}
+.al > a > span {background-position: -96px 0}
+.am > a > span {background-position: -112px 0}
+.an > a > span {background-position: -128px 0}
+.ao > a > span {background-position: -144px 0}
+.ar > a > span {background-position: -160px 0}
+.as > a > span {background-position: -176px 0}
+.at > a > span {background-position: -192px 0}
+.au > a > span {background-position: -208px 0}
+.aw > a > span {background-position: -224px 0}
+.az > a > span {background-position: -240px 0}
+.ba > a > span {background-position: 0 -11px}
+.bb > a > span {background-position: -16px -11px}
+.bd > a > span {background-position: -32px -11px}
+.be > a > span {background-position: -48px -11px}
+.bf > a > span {background-position: -64px -11px}
+.bg > a > span {background-position: -80px -11px}
+.bh > a > span {background-position: -96px -11px}
+.bi > a > span {background-position: -112px -11px}
+.bj > a > span {background-position: -128px -11px}
+.bm > a > span {background-position: -144px -11px}
+.bn > a > span {background-position: -160px -11px}
+.bo > a > span {background-position: -176px -11px}
+.br > a > span {background-position: -192px -11px}
+.bs > a > span {background-position: -208px -11px}
+.bt > a > span {background-position: -224px -11px}
+.bv > a > span {background-position: -240px -11px}
+.bw > a > span {background-position: 0 -22px}
+.by > a > span {background-position: -16px -22px}
+.bz > a > span {background-position: -32px -22px}
+.ca > a > span {background-position: -48px -22px}
+.catalonia > a > span {background-position: -64px -22px}
+.cd > a > span {background-position: -80px -22px}
+.cf > a > span {background-position: -96px -22px}
+.cg > a > span {background-position: -112px -22px}
+.ch > a > span {background-position: -128px -22px}
+.ci > a > span {background-position: -144px -22px}
+.ck > a > span {background-position: -160px -22px}
+.cl > a > span {background-position: -176px -22px}
+.cm > a > span {background-position: -192px -22px}
+.cn > a > span {background-position: -208px -22px}
+.co > a > span {background-position: -224px -22px}
+.cr > a > span {background-position: -240px -22px}
+.cu > a > span {background-position: 0 -33px}
+.cv > a > span {background-position: -16px -33px}
+.cy > a > span {background-position: -32px -33px}
+.cz > a > span {background-position: -48px -33px}
+.de > a > span {background-position: -64px -33px}
+.dj > a > span {background-position: -80px -33px}
+.dk > a > span {background-position: -96px -33px}
+.dm > a > span {background-position: -112px -33px}
+.do > a > span {background-position: -128px -33px}
+.dz > a > span {background-position: -144px -33px}
+.ec > a > span {background-position: -160px -33px}
+.ee > a > span {background-position: -176px -33px}
+.eg > a > span {background-position: -192px -33px}
+.eh > a > span {background-position: -208px -33px}
+.en > a > span {background-position: -160px -44px} /* == gb */
+.england > a > span {background-position: -224px -33px}
+.er > a > span {background-position: -240px -33px}
+.es > a > span {background-position: 0 -44px}
+.et > a > span {background-position: -16px -44px}
+.eu > a > span {background-position: -32px -44px}
+.fi > a > span {background-position: -48px -44px}
+.fj > a > span {background-position: -64px -44px}
+.fk > a > span {background-position: -80px -44px}
+.fm > a > span {background-position: -96px -44px}
+.fo > a > span {background-position: -112px -44px}
+.fr > a > span {background-position: -128px -44px}
+.ga > a > span {background-position: -144px -44px}
+.gb > a > span {background-position: -160px -44px}
+.gd > a > span {background-position: -176px -44px}
+.ge > a > span {background-position: -192px -44px}
+.gf > a > span {background-position: -208px -44px}
+.gg > a > span {background-position: -224px -44px}
+.gh > a > span {background-position: -240px -44px}
+.gi > a > span {background-position: 0 -55px}
+.gl > a > span {background-position: -16px -55px}
+.gm > a > span {background-position: -32px -55px}
+.gn > a > span {background-position: -48px -55px}
+.gp > a > span {background-position: -64px -55px}
+.gq > a > span {background-position: -80px -55px}
+.gr > a > span {background-position: -96px -55px}
+.gs > a > span {background-position: -112px -55px}
+.gt > a > span {background-position: -128px -55px}
+.gu > a > span {background-position: -144px -55px}
+.gw > a > span {background-position: -160px -55px}
+.gy > a > span {background-position: -176px -55px}
+.hk > a > span {background-position: -192px -55px}
+.hm > a > span {background-position: -208px -55px}
+.hn > a > span {background-position: -224px -55px}
+.hr > a > span {background-position: -240px -55px}
+.ht > a > span {background-position: 0 -66px}
+.hu > a > span {background-position: -16px -66px}
+.id > a > span {background-position: -32px -66px}
+.ie > a > span {background-position: -48px -66px}
+.il > a > span {background-position: -64px -66px}
+.im > a > span {background-position: -80px -66px}
+.in > a > span {background-position: -96px -66px}
+.io > a > span {background-position: -112px -66px}
+.iq > a > span {background-position: -128px -66px}
+.ir > a > span {background-position: -144px -66px}
+.is > a > span {background-position: -160px -66px}
+.it > a > span {background-position: -176px -66px}
+.je > a > span {background-position: -192px -66px}
+.jm > a > span {background-position: -208px -66px}
+.jo > a > span {background-position: -224px -66px}
+.jp > a > span {background-position: -240px -66px}
+.ke > a > span {background-position: 0 -77px}
+.kg > a > span {background-position: -16px -77px}
+.kh > a > span {background-position: -32px -77px}
+.ki > a > span {background-position: -48px -77px}
+.km > a > span {background-position: -64px -77px}
+.kn > a > span {background-position: -80px -77px}
+.kp > a > span {background-position: -96px -77px}
+.kr > a > span {background-position: -112px -77px}
+.kw > a > span {background-position: -128px -77px}
+.ky > a > span {background-position: -144px -77px}
+.kz > a > span {background-position: -160px -77px}
+.la > a > span {background-position: -176px -77px}
+.lb > a > span {background-position: -192px -77px}
+.lc > a > span {background-position: -208px -77px}
+.li > a > span {background-position: -224px -77px}
+.lk > a > span {background-position: -240px -77px}
+.lr > a > span {background-position: 0 -88px}
+.ls > a > span {background-position: -16px -88px}
+.lt > a > span {background-position: -32px -88px}
+.lu > a > span {background-position: -48px -88px}
+.lv > a > span {background-position: -64px -88px}
+.ly > a > span {background-position: -80px -88px}
+.ma > a > span {background-position: -96px -88px}
+.mc > a > span {background-position: -112px -88px}
+.md > a > span {background-position: -128px -88px}
+.me > a > span {background-position: -144px -88px}
+.mg > a > span {background-position: -160px -88px}
+.mh > a > span {background-position: -176px -88px}
+.mk > a > span {background-position: -192px -88px}
+.ml > a > span {background-position: -208px -88px}
+.mm > a > span {background-position: -224px -88px}
+.mn > a > span {background-position: -240px -88px}
+.mo > a > span {background-position: 0 -99px}
+.mp > a > span {background-position: -16px -99px}
+.mq > a > span {background-position: -32px -99px}
+.mr > a > span {background-position: -48px -99px}
+.ms > a > span {background-position: -64px -99px}
+.mt > a > span {background-position: -80px -99px}
+.mu > a > span {background-position: -96px -99px}
+.mv > a > span {background-position: -112px -99px}
+.mw > a > span {background-position: -128px -99px}
+.mx > a > span {background-position: -144px -99px}
+.my > a > span {background-position: -160px -99px}
+.mz > a > span {background-position: -176px -99px}
+.na > a > span {background-position: -192px -99px}
+.nc > a > span {background-position: -208px -99px}
+.ne > a > span {background-position: -224px -99px}
+.nf > a > span {background-position: -240px -99px}
+.ng > a > span {background-position: 0 -110px}
+.ni > a > span {background-position: -16px -110px}
+.nl > a > span {background-position: -32px -110px}
+.no > a > span {background-position: -48px -110px}
+.np > a > span {background-position: -64px -110px}
+.nr > a > span {background-position: -80px -110px}
+.nu > a > span {background-position: -96px -110px}
+.nz > a > span {background-position: -112px -110px}
+.om > a > span {background-position: -128px -110px}
+.pa > a > span {background-position: -144px -110px}
+.pe > a > span {background-position: -160px -110px}
+.pf > a > span {background-position: -176px -110px}
+.pg > a > span {background-position: -192px -110px}
+.ph > a > span {background-position: -208px -110px}
+.pk > a > span {background-position: -224px -110px}
+.pl > a > span {background-position: -240px -110px}
+.pm > a > span {background-position: 0 -121px}
+.pn > a > span {background-position: -16px -121px}
+.pr > a > span {background-position: -32px -121px}
+.ps > a > span {background-position: -48px -121px}
+.pt > a > span {background-position: -64px -121px}
+.pw > a > span {background-position: -80px -121px}
+.py > a > span {background-position: -96px -121px}
+.qa > a > span {background-position: -112px -121px}
+.re > a > span {background-position: -128px -121px}
+.ro > a > span {background-position: -144px -121px}
+.rs > a > span {background-position: -160px -121px}
+.ru > a > span {background-position: -176px -121px}
+.rw > a > span {background-position: -192px -121px}
+.sa > a > span {background-position: -208px -121px}
+.sb > a > span {background-position: -224px -121px}
+.sc > a > span {background-position: -240px -121px}
+.scotland > a > span {background-position: 0 -132px}
+.sd > a > span {background-position: -16px -132px}
+.se > a > span {background-position: -32px -132px}
+.sg > a > span {background-position: -48px -132px}
+.sh > a > span {background-position: -64px -132px}
+.si > a > span {background-position: -80px -132px}
+.sk > a > span {background-position: -96px -132px}
+.sl > a > span {background-position: -112px -132px}
+.sm > a > span {background-position: -128px -132px}
+.sn > a > span {background-position: -144px -132px}
+.so > a > span {background-position: -160px -132px}
+.sr > a > span {background-position: -176px -132px}
+.ss > a > span {background-position: -192px -132px}
+.st > a > span {background-position: -208px -132px}
+.sv > a > span {background-position: -224px -132px}
+.sy > a > span {background-position: -240px -132px}
+.sz > a > span {background-position: 0 -143px}
+.tc > a > span {background-position: -16px -143px}
+.td > a > span {background-position: -32px -143px}
+.tf > a > span {background-position: -48px -143px}
+.tg > a > span {background-position: -64px -143px}
+.th > a > span {background-position: -80px -143px}
+.tj > a > span {background-position: -96px -143px}
+.tk > a > span {background-position: -112px -143px}
+.tl > a > span {background-position: -128px -143px}
+.tm > a > span {background-position: -144px -143px}
+.tn > a > span {background-position: -160px -143px}
+.to > a > span {background-position: -176px -143px}
+.tr > a > span {background-position: -192px -143px}
+.tt > a > span {background-position: -208px -143px}
+.tv > a > span {background-position: -224px -143px}
+.tw > a > span {background-position: -240px -143px}
+.tz > a > span {background-position: 0 -154px}
+.ua > a > span {background-position: -16px -154px}
+.ug > a > span {background-position: -32px -154px}
+.um > a > span {background-position: -48px -154px}
+.us > a > span {background-position: -64px -154px}
+.uy > a > span {background-position: -80px -154px}
+.uz > a > span {background-position: -96px -154px}
+.va > a > span {background-position: -112px -154px}
+.vc > a > span {background-position: -128px -154px}
+.ve > a > span {background-position: -144px -154px}
+.vg > a > span {background-position: -160px -154px}
+.vi > a > span {background-position: -176px -154px}
+.vn > a > span {background-position: -192px -154px}
+.vu > a > span {background-position: -208px -154px}
+.wales > a > span {background-position: -224px -154px}
+.wf > a > span {background-position: -240px -154px}
+.ws > a > span {background-position: 0 -165px}
+.ye > a > span {background-position: -16px -165px}
+.yt > a > span {background-position: -32px -165px}
+.za > a > span {background-position: -48px -165px}
+.zm > a > span {background-position: -64px -165px}
+.zw > a > span {background-position: -80px -165px}
+
+/* main level link */
+#languageSwitcher a {
+    font-weight: bold;
+    color: #e7e5e5;
+    text-decoration: none;
+    display: block;
+    padding:  5px 10px;
+    margin: 0;
+    -webkit-border-radius: 1.6em;
+    -moz-border-radius: 1.6em;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+/* main level link hover */
+#languageSwitcher .current a, #nav li:hover > a {
+    background: #d1d1d1; /* for non-css3 browsers */
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEEEEE', endColorstr='#DDDDDD'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#DDDDDD)); /* for webkit browsers */
+    background: -moz-linear-gradient(top, #EEEEEE, #DDDDDD); /* for firefox 3.6+ */
+
+    color: #444;
+    border-top: solid 1px #f8f8f8;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .8);
+}
+/* sub levels link hover */
+#languageSwitcher ul li:hover a, #languageSwitcher li:hover li a {
+    background: none;
+    border: none;
+    color: #666;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+#languageSwitcher ul a:hover {
+    background: #0399d4 !important; /* for non-css3 browsers */
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#04acec', endColorstr='#0186ba'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#04acec), to(#0186ba)) !important; /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #04acec,  #0186ba) !important; /* for firefox 3.6+ */
+
+    color: #fff !important;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+}
+/* level 2 list */
+#languageSwitcher ul {
+    background: #ddd; /* for non-css3 browsers */
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#cfcfcf'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cfcfcf)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #fff,  #cfcfcf); /* for firefox 3.6+ */
+
+    display: none;
+    margin: 0;
+    padding: 0;
+    /* width: 185px; */
+    position: absolute;
+    top: 28px;
+    left: 0;
+    border: solid 1px #b4b4b4;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+}
+/* dropdown */
+#languageSwitcher li:hover > ul {
+    display: block;
+}
+#languageSwitcher ul li {
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+#languageSwitcher ul a {
+    font-weight: normal;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .9);
+    white-space: nowrap;
+}
+/* level 3+ list */
+#languageSwitcher ul ul {
+    left: 181px;
+    top: -3px;
+}
+/* rounded corners for first and last child */
+#languageSwitcher ul li:first-child > a {
+    -webkit-border-top-left-radius: 9px;
+    -moz-border-radius-topleft: 9px;
+    -webkit-border-top-right-radius: 9px;
+    -moz-border-radius-topright: 9px;
+}
+#languageSwitcher ul li:last-child > a {
+    -webkit-border-bottom-left-radius: 9px;
+    -moz-border-radius-bottomleft: 9px;
+    -webkit-border-bottom-right-radius: 9px;
+    -moz-border-radius-bottomright: 9px;
+}
+/* clearfix */
+#languageSwitcher:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+#languageSwitcher {
+    display: inline-block;
+}
+html[xmlns] #languageSwitcher {
+    display: block;
+}
+* html #languageSwitcher {
+    height: 1%;
+}

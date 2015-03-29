@@ -1,0 +1,11 @@
+.germany {
+	background-image: url("../images/de.png") !important;
+}
+
+.flag {
+	background: none no-repeat scroll 3px 3px transparent;
+	padding-bottom: 2px;
+	padding-left: 30px;
+	padding-right: 2px;
+	padding-top: 2px;
+}

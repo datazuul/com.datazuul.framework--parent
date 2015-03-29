@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<artifactId>parent</artifactId>
+		<groupId>com.datazuul.framework</groupId>
+		<version>${VERSION_NUMBER}</version>
+	</parent>
+
+	<artifactId>datazuul-fwk-domain</artifactId>
+	<name>datazuul.com - DataZuul Framework: Domain</name>
+	<version>${VERSION_NUMBER}</version>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.jscience</groupId>
+			<artifactId>jscience</artifactId>
+			<version>4.3.1</version>
+			<!-- mvn install:install-file -DgroupId=org.jscience -DartifactId=jscience 
+				-Dversion=4.3.1 -Dpackaging=jar -Dfile=jscience.jar -->
+		</dependency>
+	</dependencies>
+</project>

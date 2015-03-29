@@ -1,0 +1,55 @@
+<html>
+	<head></head>
+	<body>
+		<wicket:panel>
+		<div wicket:id="background">
+		<table cellpadding=0 cellspacing=0 style="width:100%;"><tr>
+		<td><div wicket:id="left"></div></td>
+		<td style="width:100%;">
+		   <ul id="qm0" class="qmmc" >
+			<li wicket:id="topmenuitems">
+				<span wicket:id="menuitemfragment">link</span>
+			</li>
+			<li class="qmclear">&nbsp;</li>
+		   </ul>
+		</td>
+		<td><div wicket:id="right"></div></td>
+		</tr>
+		</table>
+		</div>
+
+<!-- Create Menu Settings: (Menu ID, Is Vertical, Show Timer, Hide Timer, On Click, Right to Left, Horizontal Subs, Flush Left) -->
+<script type="text/javascript">qm_create(0,false,0,250,false,false,false,false);</script>
+		</wicket:panel>
+		
+		 <wicket:fragment wicket:id="MENUITEMFRAGMENT">
+    	   	<span wicket:id="linkfragment">link</span>
+    		<ul wicket:id="menuitemlist">
+	  			<li wicket:id="menuitemlinks">
+		  			<span wicket:id="menuitemfragment">link</span>
+	  			</li>
+    		</ul>
+    		<li wicket:id="toplevelseparator"><span class="qmdivider qmdividery" ></span></li>
+  		 </wicket:fragment>
+
+
+  		 <wicket:fragment wicket:id="LINKFRAGMENT">
+    		<a href="#" wicket:id="linkid" ><span wicket:id="linktext" >Link Text</span></a>
+  		 </wicket:fragment>
+
+  		 <wicket:fragment wicket:id="TEXTFRAGMENT">
+    		<a href="javascript:void(0)" class="qmparent"><span wicket:id="linktext">Link Text</span></a>
+  		 </wicket:fragment>
+
+		<wicket:fragment wicket:id="SEPARATORFRAGMENT">
+			<span class="qmdivider qmdividerx" ></span>
+		</wicket:fragment>
+
+  		 <wicket:fragment wicket:id="GROUPNAMEFRAGMENT">
+    		<span class="qmtitle" wicket:id="linktext">Link Text</span>
+  		 </wicket:fragment>
+
+	
+
+	</body>
+</html>
