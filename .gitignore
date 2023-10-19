@@ -1,9 +1,2 @@
-/datazuul-fwk-util/target/
-/datazuul-fwk-domain/target/
-/datazuul-fwk-persistence/target/
-/datazuul-fwk-business/target/
-/datazuul-fwk-logging/target/
-/datazuul-fwk-webapp/target/
-/datazuul-fwk-i18n/target/
-/datazuul-fwk-security/target/
-/target/
+**/target/
+/.idea/
